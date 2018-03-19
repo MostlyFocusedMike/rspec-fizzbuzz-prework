@@ -25,11 +25,11 @@ it 'returns "Fizz" when the number is divisible by 3' do
 
 def fizzbuzz(num)
   if (num % 3 == 0 && num % 5 == 0)
-    if (num %3 == 0)
-      return "Fizz"
-    if (num %5 == 0)
-      return "buzz"
     "FizzBuzz"
+  elsif (num %3 == 0)
+    "Fizz"
+  elsif (num %5 == 0) 
+    "Buzz"
   else 
     nil
   end
